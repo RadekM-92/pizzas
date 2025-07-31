@@ -31,7 +31,7 @@ FetchContent_MakeAvailable(googletest)
 
 
 enable_testing()
-add_executable(${PROJECT_NAME}-ut test/PizzeriaTest.cpp test/test_main.cpp)
+add_executable(${PROJECT_NAME}-ut test/PizzeriaTest.cpp)
 target_include_directories(${PROJECT_NAME}-ut
     PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src/
 )
